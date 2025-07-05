@@ -1,12 +1,12 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import connectDB from "./backend/config/db.js";
-import userRoutes from "./backend/routes/userRoutes.js";
-import jobRoutes from "./backend/routes/jobRoutes.js";
-import applicationRoutes from "./backend/routes/applicationRoutes.js";
-import studentRoutes from "./backend/routes/studentRoutes.js";
-import AnalyticsRoutes from "./backend/routes/analyticsRoutes.js";
+import connectDB from "./config/db.js";
+import userRoutes from "./routes/userRoutes.js";
+import jobRoutes from "./routes/jobRoutes.js";
+import applicationRoutes from "./routes/applicationRoutes.js";
+import studentRoutes from "./routes/studentRoutes.js";
+import AnalyticsRoutes from "./routes/analyticsRoutes.js";
 
 dotenv.config();
 connectDB();

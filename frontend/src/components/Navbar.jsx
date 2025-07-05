@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className='container mx-auto flex justify-between items-center py-4 px-8'>
                     {/* Left: Logo */}
                     <Link to='/' className='text-2xl font-extrabold tracking-wider hover:text-yellow-300 transition-colors'>
-                        SCET T&P Portal
+                        T&P Portal
                     </Link>
 
                     {/* Center: Main Nav Links */}
